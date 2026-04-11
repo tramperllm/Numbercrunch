@@ -105,7 +105,7 @@ class OEISExtendedHunt:
                 print(f"  Index {idx}: {', '.join(sigs)}")
                 
         # Key finding: 13 is the first non-trivial index
-        print(f"\n🔥 KEY FINDING:")
+        print(f"\n*** KEY FINDING:")
         print(f"   First non-trivial index: 13")
         print(f"   13 is Mersenne exponent")
         print(f"   13 is in SHA-256")
@@ -147,7 +147,7 @@ class OEISExtendedHunt:
         # Find which are prime
         prime_indices = [n for n, num in candidates 
                         if num < 10**15 and self.is_prime(num)]
-        print(f"\n🔥 PRIME INDICES found: {prime_indices}")
+        print(f"\n*** PRIME INDICES found: {prime_indices}")
         
         self.findings.append({
             'sequence': 'Palindrome-666',
@@ -179,7 +179,7 @@ class OEISExtendedHunt:
                 print(f"  {b}: {', '.join(sigs)}")
                 
         # Special: 666 itself
-        print(f"\n🔥 666 ANALYSIS:")
+        print(f"\n*** 666 ANALYSIS:")
         print(f"   666 = 2 × 3² × 37 = {2 * 3**2 * 37}")
         print(f"   Contains: 2, 3, 37")
         print(f"   666 / 37 = {666 // 37}")
@@ -269,7 +269,7 @@ class OEISExtendedHunt:
         # T_36 = 666
         t_36 = 36 * 37 // 2
         print(f"\nT_36 = {t_36}")
-        print(f"🔥 T_36 = 666!")
+        print(f"*** T_36 = 666!")
         
         # Find other triangle numbers with 6-13-37
         print(f"\nTriangle numbers with 6-13-37 signature:")
@@ -317,7 +317,7 @@ class OEISExtendedHunt:
         print(f"\nPrimes around 1000: {primes_around_1000}")
         
         # 977 and 1013
-        print(f"\n🔥 KEY PRIMES:")
+        print(f"\n*** KEY PRIMES:")
         print(f"   977 = 1000 - 23")
         print(f"   1013 = 1000 + 13")
         print(f"   23 = P_9 (9th prime)")
@@ -363,7 +363,7 @@ class OEISExtendedHunt:
         print(f"\nSEQUENCES ANALYZED: 10 categories")
         print(f"SIGNATURE MATCHES: {len(self.findings)}")
         
-        print(f"\n🔥 TOP DISCOVERIES:")
+        print(f"\n*** TOP DISCOVERIES:")
         for i, f in enumerate(self.findings[:5], 1):
             print(f"\n{i}. {f['sequence']}")
             print(f"   Finding: {f['finding']}")

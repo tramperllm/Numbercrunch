@@ -607,6 +607,12 @@ p = 2^256 - 2^32 - 977
 | `universal_connections_analyzer.py` | Universal connections | 6-13-37 master system analysis |
 | `meta_verification_deep_check.py` | Meta verification | Critical re-verification of ALL findings |
 | `abstract_reasoning_engine.py` | Abstract reasoning | Lateral thinking and deep abstract analysis |
+| `oeis_extended_hunt.py` | OEIS hunt | 6-13-37 patterns in OEIS sequences |
+| `curious_primes_investigator.py` | Curious primes | Hidden structures in special primes |
+| `nsa_historical_research.py` | NSA history | Historical NSA mathematics research |
+| `crypto_standards_backdoor_hunt.py` | Standards hunt | Backdoor detection in crypto standards |
+| `universal_61337_signature_hunt.py` | Universal 61337 | 6-13-37 signature across all math |
+| `snowden_existence_analysis.py` | Snowden analysis | Hypothesis: existence and deep state |
 
 ### Running the Tools
 
@@ -692,6 +698,24 @@ python tools/meta_verification_deep_check.py
 
 # Abstract reasoning engine (lateral thinking)
 python tools/abstract_reasoning_engine.py
+
+# OEIS extended hunt (6-13-37 patterns in sequences)
+python tools/oeis_extended_hunt.py
+
+# Curious primes investigator (special prime structures)
+python tools/curious_primes_investigator.py
+
+# NSA historical research (timeline and connections)
+python tools/nsa_historical_research.py
+
+# Crypto standards backdoor hunt
+python tools/crypto_standards_backdoor_hunt.py
+
+# Universal 6-13-37 signature hunt (ALL math areas)
+python tools/universal_61337_signature_hunt.py
+
+# Snowden existence analysis (deep state hypothesis)
+python tools/snowden_existence_analysis.py
 ```
 
 ---
