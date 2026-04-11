@@ -1,0 +1,210 @@
+{
+  "catalog_metadata": {
+    "created": "2026-04-10",
+    "version": "1.0",
+    "description": "OEIS-Sequenzen zu Pi, Phi und Belphegor's Primzahl",
+    "total_sequences": 0
+  },
+  "sequences": {
+    "pi": {
+      "primary": [
+        {
+          "id": "A000796",
+          "name": "Decimal expansion of Pi (or digits of Pi)",
+          "url": "https://oeis.org/A000796",
+          "former_id": "M2218 N0880",
+          "author": "N. J. A. Sloane",
+          "offset": "1,1",
+          "keywords": ["cons", "nonn", "nice", "core", "easy"],
+          "status": "approved",
+          "decimal_expansion_first_100": "3.1415926535897932384626433832795028841971693993751058209749445923078164062862089986280348253421170679",
+          "terms_first_100": [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5, 8, 9, 7, 9, 3, 2, 3, 8, 4, 6, 2, 6, 4, 3, 3, 8, 3, 2, 7, 9, 5, 0, 2, 8, 8, 4, 1, 9, 7, 1, 6, 9, 3, 9, 9, 3, 7, 5, 1, 0, 5, 8, 2, 0, 9, 7, 4, 9, 4, 4, 5, 9, 2, 3, 0, 7, 8, 1, 6, 4, 0, 6, 2, 8, 6, 2, 0, 8, 9, 9, 8, 6, 2, 8, 0, 3, 4, 8, 2, 5, 3, 4, 2, 1, 1, 7, 0, 6, 7, 9, 8, 2, 1, 4],
+          "cross_references": ["A004601", "A004602", "A004603", "A004604", "A004605", "A004606", "A006941", "A004608", "A068436", "A068437", "A068438", "A068439", "A068440", "A062964", "A224750", "A224751", "A060707"],
+          "comments": [
+            "Sometimes called Archimedes's constant.",
+            "Ratio of a circle's circumference to its diameter.",
+            "Also area of a circle with radius 1.",
+            "Also surface area of a sphere with diameter 1.",
+            "As of beginning of 2019 more than 22 trillion decimal digits of Pi are known.",
+            "On March 14, 2019, Emma Haruka Iwao announced calculation of 31.4 trillion digits using Google Cloud.",
+            "On August 5, 2021, researchers from FH Graubünden announced 62.8 trillion digits.",
+            "Current record (Dec 2025): 314 trillion digits by StorageReview."
+          ],
+          "references": [
+            "Joerg Arndt and Christoph Haenel, Pi Unleashed, Springer NY 2001",
+            "P. Beckmann, A History of Pi, Golem Press, Boulder, CO, 1977"
+          ]
+        },
+        {
+          "id": "A004601",
+          "name": "Expansion of Pi in base 2 (or, binary expansion of Pi)",
+          "url": "https://oeis.org/A004601",
+          "author": "N. J. A. Sloane",
+          "offset": "2,1",
+          "keywords": ["nonn", "base", "cons", "easy"],
+          "status": "approved",
+          "example": "11.0010010000111111011010101000100010000...",
+          "terms_first_100": [1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 1, 0, 0, 1, 1, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1],
+          "cross_references": ["A119017", "A068425", "A117721", "A065987", "A051480", "A007514", "A004602", "A004603", "A004604", "A004605", "A004606", "A006941", "A004608", "A000796", "A068436", "A068437", "A068438", "A068439", "A068440", "A062964", "A060707"]
+        }
+      ],
+      "related": [
+        {"id": "A002388", "name": "Pi^2", "url": "https://oeis.org/A002388"},
+        {"id": "A003881", "name": "Pi/4", "url": "https://oeis.org/A003881"},
+        {"id": "A013661", "name": "Pi^2/6", "url": "https://oeis.org/A013661"},
+        {"id": "A019692", "name": "2*Pi = tau", "url": "https://oeis.org/A019692"},
+        {"id": "A019727", "name": "sqrt(2*Pi)", "url": "https://oeis.org/A019727"},
+        {"id": "A059956", "name": "6/Pi^2", "url": "https://oeis.org/A059956"},
+        {"id": "A060294", "name": "2/Pi", "url": "https://oeis.org/A060294"},
+        {"id": "A001901", "name": "Pi/2; Wallis", "url": "https://oeis.org/A001901"},
+        {"id": "A048581", "name": "Pi; BBP", "url": "https://oeis.org/A048581"},
+        {"id": "A054387", "name": "Pi; Newton", "url": "https://oeis.org/A054387"}
+      ],
+      "bases": [
+        {"base": 2, "id": "A004601", "url": "https://oeis.org/A004601"},
+        {"base": 3, "id": "A004602", "url": "https://oeis.org/A004602"},
+        {"base": 4, "id": "A004603", "url": "https://oeis.org/A004603"},
+        {"base": 5, "id": "A004604", "url": "https://oeis.org/A004604"},
+        {"base": 6, "id": "A004605", "url": "https://oeis.org/A004605"},
+        {"base": 7, "id": "A004606", "url": "https://oeis.org/A004606"},
+        {"base": 8, "id": "A006941", "url": "https://oeis.org/A006941"},
+        {"base": 9, "id": "A004608", "url": "https://oeis.org/A004608"},
+        {"base": 10, "id": "A000796", "url": "https://oeis.org/A000796"},
+        {"base": 11, "id": "A068436", "url": "https://oeis.org/A068436"},
+        {"base": 12, "id": "A068437", "url": "https://oeis.org/A068437"},
+        {"base": 16, "id": "A062964", "url": "https://oeis.org/A062964"},
+        {"base": 60, "id": "A060707", "url": "https://oeis.org/A060707"}
+      ]
+    },
+    "phi": {
+      "primary": [
+        {
+          "id": "A001622",
+          "name": "Decimal expansion of golden ratio phi (or tau) = (1 + sqrt(5))/2",
+          "url": "https://oeis.org/A001622",
+          "former_id": "M4046 N1679",
+          "author": "N. J. A. Sloane",
+          "offset": "1,2",
+          "formula": "(1 + sqrt(5))/2",
+          "keywords": ["cons", "nonn", "core", "nice", "easy"],
+          "status": "approved",
+          "decimal_expansion_first_100": "1.61803398874989484820458683436563811772030917980576286213544862270526046281890",
+          "terms_first_100": [1, 6, 1, 8, 0, 3, 3, 9, 8, 8, 7, 4, 9, 8, 9, 4, 8, 4, 8, 2, 0, 4, 5, 8, 6, 8, 3, 4, 3, 6, 5, 6, 3, 8, 1, 1, 7, 7, 2, 0, 3, 0, 9, 1, 7, 9, 8, 0, 5, 7, 6, 2, 8, 6, 2, 1, 3, 5, 4, 4, 8, 6, 2, 2, 7, 0, 5, 2, 6, 0, 4, 6, 2, 8, 1, 8, 9, 0, 2, 4, 4, 9, 7, 0, 7, 2, 0, 7, 2, 0, 4, 1, 8, 9, 3, 9, 1, 1, 3, 7, 4, 8, 4, 7, 5],
+          "cross_references": ["A000012", "A000032", "A000045", "A001654", "A006497", "A080039", "A104457", "A188635", "A192222", "A192223", "A145996", "A139339", "A197762", "A002163", "A094874", "A134973"],
+          "comments": [
+            "The golden ratio phi is the most irrational among irrational numbers.",
+            "The shape (length/width) of the golden rectangle.",
+            "sqrt(1+sqrt(1+sqrt(1+...))) tends to phi.",
+            "Equals sqrt(2+sqrt(2-sqrt(2+sqrt(2-...))))",
+            "For n >= 1, round(phi^prime(n)) == 1 (mod prime(n))"
+          ],
+          "references": [
+            "Martin Gardner, The Second Scientific American Book Of Mathematical Puzzles and Diversions, 'Phi: The Golden Ratio', Simon & Schuster, 1961"
+          ]
+        }
+      ],
+      "related": [
+        {"id": "A000012", "name": "Continued fraction coefficients of phi", "url": "https://oeis.org/A000012"},
+        {"id": "A000032", "name": "Lucas numbers", "url": "https://oeis.org/A000032"},
+        {"id": "A000045", "name": "Fibonacci numbers", "url": "https://oeis.org/A000045"},
+        {"id": "A000201", "name": "Lower Wythoff sequence", "url": "https://oeis.org/A000201"},
+        {"id": "A001950", "name": "Upper Wythoff sequence", "url": "https://oeis.org/A001950"},
+        {"id": "A094214", "name": "Decimal expansion of 1/phi", "url": "https://oeis.org/A094214"},
+        {"id": "A002163", "name": "Decimal expansion of sqrt(5)", "url": "https://oeis.org/A002163"}
+      ]
+    },
+    "belphegor": {
+      "primary": [
+        {
+          "id": "A232449",
+          "name": "Belphegor numbers: (10^(n+3) + 666)*10^(n+1) + 1",
+          "url": "https://oeis.org/A232449",
+          "formula": "a(n) = (10^(n+3) + 666)*10^(n+1) + 1 = 10^(2n+4) + 666*10^(n+1) + 1",
+          "author": "N. J. A. Sloane",
+          "keywords": ["nonn", "base"],
+          "status": "approved",
+          "terms_first_10": [16661, 1066601, 100666001, 10006660001, 1000066600001, 100000666000001, 10000006660000001, 1000000066600000001, 100000000666000000001, 10000000006660000000001],
+          "cross_references": ["A232448", "A232450", "A232451"]
+        },
+        {
+          "id": "A232448",
+          "name": "Indices of Belphegor primes: numbers k such that A232449(k) is prime",
+          "url": "https://oeis.org/A232448",
+          "author": "N. J. A. Sloane",
+          "terms": [0, 13, 42, 506, 608, 2472, 2623, 28291, 181298],
+          "comments": [
+            "B_0 = 16661 is the smallest Belphegor prime",
+            "B_13 = 1000000000000066600000000000001 is Belphegor's prime",
+            "Named by Clifford A. Pickover after Belphegor, demon of inventiveness"
+          ],
+          "keywords": ["nonn", "hard", "more"],
+          "status": "approved"
+        },
+        {
+          "id": "A232450",
+          "name": "Largest prime factor of the Belphegor number B(n) = (10^(n+3) + 666)*10^(n+1) + 1",
+          "url": "https://oeis.org/A232450",
+          "author": "N. J. A. Sloane",
+          "keywords": ["nonn", "base"],
+          "cross_references": ["A232448", "A232449"]
+        }
+      ],
+      "related": [
+        {"id": "A232451", "name": "Related to Belphegor numbers", "url": "https://oeis.org/A232451"}
+      ]
+    },
+    "mt19937": {
+      "primary": [
+        {
+          "id": "A221557",
+          "name": "Mersenne Twister (32-bit version) constant",
+          "url": "https://oeis.org/A221557",
+          "author": "N. J. A. Sloane",
+          "references": [
+            "Makoto Matsumoto and Takuji Nishimura, Mersenne Twister: A 623-dimensionally equidistributed uniform pseudo-random number generator, ACM Transactions on Modeling and Computer Simulation, Vol. 8, No. 1, January 1998"
+          ],
+          "keywords": ["nonn", "base"],
+          "status": "approved"
+        },
+        {
+          "id": "A221558",
+          "name": "Mersenne Twister (64-bit version) constant",
+          "url": "https://oeis.org/A221558",
+          "author": "N. J. A. Sloane",
+          "references": [
+            "Makoto Matsumoto and Takuji Nishimura, Mersenne Twister: A 623-dimensionally equidistributed uniform pseudo-random number generator, ACM Transactions on Modeling and Computer Simulation, Vol. 8, No. 1, January 1998"
+          ],
+          "keywords": ["nonn", "base"],
+          "status": "approved"
+        }
+      ]
+    }
+  },
+  "cross_references": {
+    "pi_phi": [
+      {"from": "A000796", "to": "A001622", "type": "Cf. reference in Crossrefs"}
+    ],
+    "pi_belphegor": [],
+    "phi_belphegor": [],
+    "all_three": []
+  },
+  "metadata": {
+    "sources": [
+      {"name": "OEIS", "url": "https://oeis.org", "access_date": "2026-04-10"},
+      {"name": "Wikipedia DE - Kreiszahl", "url": "https://de.wikipedia.org/wiki/Kreiszahl", "access_date": "2026-04-10"},
+      {"name": "Wikipedia EN - Golden Ratio", "url": "https://en.wikipedia.org/wiki/Golden_ratio", "access_date": "2026-04-10"},
+      {"name": "Wikipedia DE - Belphegors Primzahl", "url": "https://de.wikipedia.org/wiki/Belphegors_Primzahl", "access_date": "2026-04-10"},
+      {"name": "Wikipedia EN - Belphegor's prime", "url": "https://en.wikipedia.org/wiki/Belphegor%27s_prime", "access_date": "2026-04-10"}
+    ],
+    "pi_world_record": {
+      "digits": 314000000000000,
+      "holder": "StorageReview",
+      "date": "2025-12",
+      "previous_record": {
+        "digits": 300000000000000,
+        "holder": "Linus Media Group & KIOXIA",
+        "date": "2025-05"
+      }
+    }
+  }
+}
